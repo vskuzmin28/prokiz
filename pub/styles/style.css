@@ -165,3 +165,40 @@ a {
     line-height: auto;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .navigation {
+    height: 60px;
+    background: #000;
+  }
+  .navigation__link-main {
+    padding: 0 55px;
+    float: left;
+    height: 60px;
+    background: #000;
+  }
+  .navigation__link-main:hover {
+    background: #f8f400;
+  }
+  .navigation__link-main > a {
+    display: block;
+    height: 60px;
+    font: 14px 'robotoregular';
+    color: #f8f400;
+    text-decoration: none;
+    line-height: 60px;
+  }
+  .navigation__link-main > a:hover {
+    color: #000;
+  }
+  .navigation__link-main > li > ul.navigation__link-main__one-level {
+    display: none;
+  }
+  .navigation__link-main > li > ul.navigation__link-main__one-level {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 400px;
+    background: #f00;
+  }
+}
