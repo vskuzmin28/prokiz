@@ -7,45 +7,15 @@ html(lang='ru')
     link(rel="icon" type="image/png" href="../img/favicon-16-16.png" sizes="16x16")
     link(rel="icon" type="image/png" href="../img/favicon-32-32.png" sizes="32x32")
     link(rel="icon" type="image/png" href="../img/favicon-96-96.png" sizes="96x96")
-    title INDEX - BARSX
+    title template
     link(rel='stylesheet', href='../styles/style.css')
   body
 
-    // main header
+    // header
 
-    //include ../blocks/block-main-header/main-header.pug
+    include ../blocks/block-header/header.pug        
 
-    // / main header
-
-    // subblock manufacturers
-    
-    include ../blocks/subblock-manufacturers/manufacturers.pug
-
-    // / subblock manufacturers
-
-    // subblock main services
-
-    include ../blocks/subblock-main-services/main-services.pug
-
-    // / subblock main services
-
-    // subblock popular goods
-
-    include ../blocks/subblock-popular-goods/popular-goods.pug
-
-    // / subblock popular goods
-
-    // subblock about
-
-    include ../blocks/subblock-about/about.pug
-
-    // / subblock about
-
-    // subblock services
-
-    include ../blocks/subblock-services/services.pug
-
-    // / subblock services
+    // / header
 
     // footer
 
@@ -55,7 +25,6 @@ html(lang='ru')
 
     // scripts
 
-    //script(src='https://maps.googleapis.com/maps/api/js?v=3.exp')
     script(src='../js/jquery-3.2.1.min.js')
     script(src='../js/jquery-ui.min.js')
     script(src='../js/jquery.bpopup.min.js')
