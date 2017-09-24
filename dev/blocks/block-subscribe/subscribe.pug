@@ -1,0 +1,39 @@
+.subscribe
+
+	// centered
+
+	.centered.width-1174
+
+		// title block
+
+		.subscribe__title-block
+
+			h4
+				| Узнай первым!
+
+			p
+				| Новости, Акции, Спецпредложения
+
+		// form send
+
+		form.subscribe__form-send(action="/" method="post")
+
+			// field
+
+			.subscribe__form-send__field
+				input(type="text" name="" placeholder="E-mail: login@example.ru" required)
+
+			.subscribe__form-send__field
+				input.btn-yellow(type="submit" value="Подписаться")
+
+			label
+				input(type="checkbox" required)
+				p
+					| Согласие на обработку персональных данных
+
+		// small basket
+
+		a.btn.btn-yellow.header__btn-small-basket.subscribe__small-basket(href="#" title="")
+			img(src="../img/icons/icon-2.png" alt="@@")
+			p
+				| Корзина
