@@ -300,6 +300,14 @@ a {
     text-indent: -22px;
     background: #d6effb !important;
   }
+  ul.navigation__link-main-main__one-level li ul li a {
+    left: 0px !important;
+    padding-left: 0 !important;
+    position: relative !important;
+    width: 260px !important;
+    text-indent: -22px;
+    background: #d6effb !important;
+  }
   ul.navigation__link-main__one-level > li:hover > ul > li:nth-child(1) a {
     border-top: 0;
   }
