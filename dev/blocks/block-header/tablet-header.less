@@ -1,28 +1,36 @@
-@media only screen and (min-width : 1200px) {
+@media only screen and (min-width : 600px) and (max-width : 1200px) {
 
 	// header
 
 	.header {
-		margin-top: 18px;
+		position: relative;
+		margin-top: 0px;
 		margin-bottom: 23px;
-		height: 54px;
+		height: 135px;
 		overflow: hidden;
 	}
 
 	// logotype
 
 	.header__logo {
+		position: absolute;
 		margin-top: 1px;
 		margin-right: 18px;
+		margin: 18px 0 0 15px;
 		float: left;
 		display: block;
-		width: 225px;
-		height: 54px;
+		
+		img {
+			width: 156px;
+			height: 37px;
+		}
+
 	}
 
 	// site desciption
 
 	.header__site-description {
+		position: absolute;
 		margin-top: 10px;
 		margin-right: 12px;
 		float: left;
@@ -30,6 +38,7 @@
 		font: 14px @roboto-regular;
 		line-height: 18px;
 		color: @black;
+		margin: 25px 0 0 193px;
 	}
 
 	// information
