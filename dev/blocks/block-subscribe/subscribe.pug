@@ -21,14 +21,15 @@
 			// field
 
 			.subscribe__form-send__field
-				input(type="text" name="" placeholder="E-mail: login@example.ru" required)
+				input(type="text" name="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,3}$" placeholder="E-mail: login@example.ru" required)
 
 			.subscribe__form-send__field
+				.subscribe__form-send__field__icon-done
 				input.btn-yellow(type="submit" value="Подписаться")
 
 			label
 				input(type="checkbox" required)
-				p
+				a(href="#" title="")
 					| Согласие на обработку персональных данных
 
 		// small basket
