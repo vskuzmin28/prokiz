@@ -62,9 +62,69 @@ a {
 }
 @media only screen and (min-width: 1024px) {
   footer {
+    padding: 68px 0 88px 0;
     position: relative;
-    padding-top: 38px;
-    height: 266px;
+    background: #d6effb;
+    height: auto;
+    overflow: hidden;
+  }
+  .footer__navigation {
+    float: left;
+    margin-right: 0px;
+  }
+  .footer__navigation h4 {
+    font: 20px 'robotoblack';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul {
+    width: auto;
+  }
+  .footer__navigation ul li a,
+  .footer__navigation ul li a:hover {
+    float: left;
+    width: 274px;
+    height: auto;
+    margin: 0;
+    display: block;
+    font: 14px 'robotolight';
+    line-height: 20px;
+    color: #6c8195;
+  }
+  .footer__navigation__big-column {
+    width: 580px !important;
+  }
+  .footer__other-info {
+    margin-top: 44px;
+    float: right;
+    width: 272px;
+    text-align: left;
+  }
+  .footer__other-info p {
+    font: 14px 'robotoregular';
+    color: #000;
+  }
+  .pr-tovar {
+    margin-top: 12px;
+    display: block;
+    height: 39px;
+    position: relative;
+    font: 14px 'robotoregular';
+    line-height: 43px;
+    color: #007fb2;
+  }
+  .pr-tovar img {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    margin: 0 0 0 -30px;
+  }
+  .link-polytic {
+    margin-top: 16px;
+    display: block;
+    font: 14px 'robotoregular';
+    color: #667a89;
   }
 }
 @media only screen and (min-width: 1024px) {
