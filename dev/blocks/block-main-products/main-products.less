@@ -30,7 +30,7 @@
     li {
       margin-bottom: 30px;
       width: 268px;
-      height: 256px;
+      height: 258px;
       float: left;
       background: @white;
       border: 1px solid #dddddd;
@@ -73,5 +73,92 @@
     }
 
   }
+
+  // product slider
+
+  .product-slider {
+    position: relative;
+    float: left !important;
+    margin: 0 !important;
+    border: 1px !important;
+    width: 870px !important;
+    height: 258px !important;
+    overflow: hidden !important;
+
+    &:hover {
+      border: 1px  !important;
+      -webkit-box-shadow: none !important;
+      box-shadow: none !important;
+    }
+
+  }
+
+  .product-slider__conteiner {
+    height: 258px;
+
+    li {
+      float: left !important;
+      width: 100% !important;
+      height: 258px !important;
+      margin: 0 !important;
+      border: 0 !important;
+      background: 0 !important;
+      padding: 0 !important;
+
+      img {
+
+        margin: 0 !important;
+      }
+
+      &:hover {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+      }
+
+    }
+
+  }
+
+    .small-banners_tabs {
+      margin-top: 60px !important;
+      position: absolute !important;
+      top: 0 !important;
+      width: 210px !important;
+      height: 30px !important;
+      background: #f00 !important;
+      z-index: 99;
+      left: 0 !important;
+      margin-left: 0% !important;
+
+      li {
+        width: 10px;
+        height: 10px;
+        border: 0;
+        float: left !important;
+        margin-right: 6px !important;
+
+        a, a:hover {
+          display: block !important;
+          width: 10px !important;
+          height: 10px !important;
+          background: 0 !important;
+          border: 1px solid @white;
+          border-radius: 50% !important;
+          overflow: hidden !important;
+          text-indent: -9999px !important;
+        }
+
+        &:last-child {
+          margin-right: 0 !important;
+        }
+
+      }
+
+    }
+
+    .small-banners_here {
+      background: #fff;
+      border-radius: 50%;
+    }
 
 }

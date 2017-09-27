@@ -39,4 +39,14 @@ $(function () {
     namespace: "centered-controls"
   });
 
+  $('#small-banner').responsiveSlides({
+    auto: true,
+    pager: true,
+    nav: true,
+    speed: 500,
+    maxwidth: 870,
+    namespace: "small-banners"
+  });
+
+
 });
