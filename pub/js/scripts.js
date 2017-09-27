@@ -26,3 +26,17 @@ $('.send-form').submit(function() {
     }, 'json');
     return false;
   })
+
+
+$(function () {
+
+  $('#main-baner').responsiveSlides({
+    auto: true,
+    pager: true,
+    nav: true,
+    speed: 500,
+    maxwidth: 5000,
+    namespace: "centered-controls"
+  });
+
+});

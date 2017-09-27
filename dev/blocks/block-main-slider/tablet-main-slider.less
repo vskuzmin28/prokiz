@@ -1,0 +1,117 @@
+@media only screen and (min-width : 600px) and (max-width : 1200px) {
+
+	// main slider
+
+	.main-slider {
+		height: 392px;
+		position: relative;
+		background: #e2ecf5;
+	}
+
+  	.main-slider .prev {
+  		top: 40px;
+  		right: 22.2%;
+  		margin-left: -1920px;
+  		position: absolute;
+  		display: block;
+  		width: 33px;
+  		height: 33px;
+  		overflow: hidden;
+  		text-indent: -9999px;
+  		background: 0;
+  		border: 1px solid @white;
+  		z-index: 99;
+
+  		&:hover {
+  			border-color: @black;
+  		}
+
+  	}
+
+  	.main-slider .next {
+  		top: 40px;
+  		right: 20%;
+  		position: absolute;
+  		display: block;
+  		width: 33px;
+  		height: 33px;
+  		overflow: hidden;
+  		text-indent: -9999px;
+  		background: url('../img/icons/icon-9.png') no-repeat center;
+  		border: 1px solid @white;
+  		z-index: 99;
+
+  		&:hover {
+  			background: url('../img/icons/icon-10.png') no-repeat center;
+  			border-color: @black;
+  		}
+
+  	}
+
+  	.main-banner {
+
+  		height: 100px !important;
+
+  		li {
+  			float: left;
+  			width: 100%;
+  			height: 396px;
+
+  			a, a:hover {
+  				display: block;
+  				width: 100%;
+  				height: 396px;
+
+				img {
+  					display: block;
+  					margin: 0 auto;
+  					width: 100% !important;
+  					height: auto !important;
+  				}
+
+  			}
+
+
+
+  		}
+
+  	}
+
+  	.centered-controls_tabs {
+  		margin-top: 260px;
+  		position: absolute;
+  		width: 210px;
+  		background: 0;
+  		z-index: 99;
+  		left: 50%;
+  		margin-left: -7%;
+
+  		li {
+  			float: left;
+  			margin-right: 6px;
+
+  			a, a:hover {
+  				display: block;
+  				width: 10px;
+  				height: 10px;
+  				background: 0;
+  				border: 1px solid @white;
+  				border-radius: 50%;
+  				overflow: hidden;
+  				text-indent: -9999px;
+  			}
+
+  			&:last-child {
+  				margin-right: 0;
+  			}
+
+  		}
+
+  	}
+
+  	.centered-controls_here {
+  		background: #fff;
+  		border-radius: 50%;
+  	}
+
+}
