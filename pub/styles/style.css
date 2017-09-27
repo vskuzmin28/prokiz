@@ -1426,6 +1426,196 @@ a {
     color: #667a89;
   }
 }
+@media only screen and (min-width: 1024px) {
+  .main-publs {
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+  }
+  .main-publs h3 {
+    margin-bottom: 40px;
+  }
+  .main-publs ul {
+    height: auto;
+    overflow: hidden;
+  }
+  .main-publs ul li {
+    margin-right: 28px;
+    float: left;
+    width: 270px;
+    height: 292px;
+    background: #fefefe;
+    border-top: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 9px solid #f8f400;
+    overflow: hidden;
+  }
+  .main-publs ul li:last-child {
+    margin-right: 0;
+  }
+  .main-publs ul li:hover p {
+    text-decoration: underline;
+  }
+  .main-publs ul li p {
+    font: 16px 'robotobold';
+    color: #000;
+    text-align: center;
+  }
+  .main-publs ul li a,
+  .main-publs ul li a:hover {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  .main-publs__preview {
+    margin: 12px 0 35px 12px;
+    width: 246px;
+    height: 192px;
+    background: #e2ecf5;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+  footer {
+    padding: 40px 0 68px 0;
+    position: relative;
+    background: #d6effb;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footer__navigation {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .footer__navigation h4 {
+    font: 16px 'robotoblack';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul {
+    width: auto;
+  }
+  .footer__navigation ul li a,
+  .footer__navigation ul li a:hover {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: block;
+    font: 12px 'robotolight';
+    line-height: 18px;
+    color: #6c8195;
+  }
+  .footer__navigation__big-column {
+    width: auto !important;
+  }
+  .footer__other-info {
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .footer__other-info p {
+    font: 14px 'robotoregular';
+    color: #000;
+  }
+  .pr-tovar {
+    margin-top: 12px;
+    display: block;
+    height: 39px;
+    position: relative;
+    font: 12px 'robotoregular';
+    line-height: 43px;
+    color: #007fb2;
+  }
+  .pr-tovar img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 0 -22px;
+  }
+  .link-polytic {
+    margin-top: 16px;
+    display: block;
+    font: 12px 'robotoregular';
+    color: #667a89;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  footer {
+    padding: 40px 0 68px 0;
+    position: relative;
+    background: #d6effb;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footer__navigation {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .footer__navigation h4 {
+    font: 20px 'robotoblack';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul {
+    width: auto;
+  }
+  .footer__navigation ul li a,
+  .footer__navigation ul li a:hover {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: block;
+    font: 14px 'robotolight';
+    line-height: 20px;
+    color: #6c8195;
+  }
+  .footer__navigation__big-column {
+    width: auto !important;
+  }
+  .footer__other-info {
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .footer__other-info p {
+    font: 14px 'robotoregular';
+    color: #000;
+  }
+  .pr-tovar {
+    margin-top: 12px;
+    display: block;
+    height: 39px;
+    position: relative;
+    font: 14px 'robotoregular';
+    line-height: 43px;
+    color: #007fb2;
+  }
+  .pr-tovar img {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    margin: 0 0 0 -30px;
+  }
+  .link-polytic {
+    margin-top: 16px;
+    display: block;
+    font: 14px 'robotoregular';
+    color: #667a89;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .main-slider {
     height: 392px;
