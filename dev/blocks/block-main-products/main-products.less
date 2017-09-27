@@ -122,30 +122,37 @@
     .small-banners_tabs {
       margin-top: 60px !important;
       position: absolute !important;
-      top: 0 !important;
-      width: 210px !important;
-      height: 30px !important;
-      background: #f00 !important;
+      bottom: 24px;
+      width: 50px !important;
+      height: 12px !important;
+      
       z-index: 99;
-      left: 0 !important;
-      margin-left: 0% !important;
+      left: 50%;
+      margin-left: -35px !important;
 
       li {
         width: 10px;
         height: 10px;
         border: 0;
+        border-radius: 50%;
+        background: 0;
+        border: 1px solid @white;
         float: left !important;
         margin-right: 6px !important;
+
+        &:hover {
+          background: @white !important;
+        }
 
         a, a:hover {
           display: block !important;
           width: 10px !important;
           height: 10px !important;
           background: 0 !important;
-          border: 1px solid @white;
           border-radius: 50% !important;
           overflow: hidden !important;
           text-indent: -9999px !important;
+
         }
 
         &:last-child {
@@ -157,8 +164,49 @@
     }
 
     .small-banners_here {
-      background: #fff;
+      background: #fff !important;
       border-radius: 50%;
+    }
+
+    .prev {
+      top: 21px;
+      right: 56px;
+      margin-left: -2%;
+      position: absolute;
+      display: block;
+      width: 33px !important;
+      height: 33px !important;
+      overflow: hidden;
+      text-indent: -9999px;
+      background: 0;
+      border: 1px solid @white;
+      z-index: 99;
+
+      &:hover {
+        border-color: @black;
+      }
+
+    }
+
+    .next {
+      top: 21px;
+      right: 16px;
+      margin-left: -2%;
+      position: absolute;
+      display: block;
+      width: 33px !important;
+      height: 33px !important;
+      overflow: hidden;
+      text-indent: -9999px;
+      background: url('../img/icons/icon-9.png') no-repeat center;
+      border: 1px solid @white;
+      z-index: 99;
+
+      &:hover {
+        background: url('../img/icons/icon-10.png') no-repeat center;
+        border-color: @black;
+      }
+
     }
 
 }
