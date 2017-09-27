@@ -2449,6 +2449,173 @@ a {
   }
 }
 @media only screen and (min-width: 300px) and (max-width: 600px) {
+  footer {
+    padding: 40px 0 68px 0;
+    position: relative;
+    background: #d6effb;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footer__navigation {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .footer__navigation h4 {
+    font: 16px 'robotoblack';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul {
+    width: auto;
+  }
+  .footer__navigation ul li a,
+  .footer__navigation ul li a:hover {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: block;
+    font: 12px 'robotolight';
+    line-height: 18px;
+    color: #6c8195;
+  }
+  .footer__navigation__big-column {
+    width: auto !important;
+  }
+  .footer__other-info {
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .footer__other-info p {
+    font: 14px 'robotoregular';
+    color: #000;
+  }
+  .pr-tovar {
+    margin-top: 12px;
+    display: block;
+    height: 39px;
+    position: relative;
+    font: 12px 'robotoregular';
+    line-height: 43px;
+    color: #007fb2;
+  }
+  .pr-tovar img {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0 0 -22px;
+  }
+  .link-polytic {
+    margin-top: 16px;
+    display: block;
+    font: 12px 'robotoregular';
+    color: #667a89;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .publs {
+    height: auto;
+    overflow: hidden;
+  }
+  .publs ul {
+    height: auto;
+    overflow: hidden;
+    padding: 0 210px;
+    margin-bottom: 100px;
+  }
+  .publs ul li {
+    margin: 0 auto;
+    margin-bottom: 0px;
+    float: none;
+    text-align: center;
+    padding-bottom: 6px;
+  }
+  .publs ul li a,
+  .publs ul li a:hover {
+    text-decoration: none;
+    font: 14px 'robotoregular';
+    color: #006bb4;
+    line-height: 20px;
+    border-bottom: 1px dashed #006bb4;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  footer {
+    padding: 40px 0 68px 0;
+    position: relative;
+    background: #d6effb;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .footer__navigation {
+    float: none;
+    margin-right: 0px;
+    margin-bottom: 40px;
+  }
+  .footer__navigation h4 {
+    font: 20px 'robotoblack';
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .footer__navigation ul {
+    width: auto;
+  }
+  .footer__navigation ul li a,
+  .footer__navigation ul li a:hover {
+    float: none;
+    width: auto;
+    height: auto;
+    margin: 0;
+    display: block;
+    font: 14px 'robotolight';
+    line-height: 20px;
+    color: #6c8195;
+  }
+  .footer__navigation__big-column {
+    width: auto !important;
+  }
+  .footer__other-info {
+    margin-top: 30px;
+    margin-bottom: 0px !important;
+    float: none;
+    width: auto;
+    text-align: center;
+  }
+  .footer__other-info p {
+    font: 14px 'robotoregular';
+    color: #000;
+  }
+  .pr-tovar {
+    margin-top: 12px;
+    display: block;
+    height: 39px;
+    position: relative;
+    font: 14px 'robotoregular';
+    line-height: 43px;
+    color: #007fb2;
+  }
+  .pr-tovar img {
+    position: absolute;
+    width: 39px;
+    height: 39px;
+    margin: 0 0 0 -30px;
+  }
+  .link-polytic {
+    margin-top: 16px;
+    display: block;
+    font: 14px 'robotoregular';
+    color: #667a89;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 600px) {
   .subscribe {
     padding: 35px 0 42px 0;
     height: auto;
