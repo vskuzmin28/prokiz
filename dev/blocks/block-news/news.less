@@ -1,43 +1,122 @@
 @media only screen and (min-width : 1024px) {
 
-  // treaty
+  // news
 
-  .treaty {
+  .news {
     height: auto;
     overflow: hidden;
 
     ul {
       height: auto;
       overflow: hidden;
-      padding: 0 210px;
       margin-bottom: 100px;
 
       li {
-
-        float: left;
-        width: 250px;
-        text-align: center;
-
-        a, a:hover {
-          text-decoration: none;
-          display: block;
-
-          img {
-            display: block;
-            margin: 0 auto;
-            margin-bottom: 20px;
-          }
-
-          p {
-            font: 16px @roboto-regular;
-            text-decoration: underline;
-            color: #0971ad;
-          }
-
-        }
-
+        margin-bottom: 36px;
+        overflow: hidden;
+        float: none;
+        text-align: left;
+        height: auto;
       }
 
+    }
+
+  }
+
+  .news__date-add {
+    float: left;
+    width: 100px;
+
+    span {
+      display: block;
+      font: 16px @roboto-black;
+      color: @black;
+    }
+
+  }
+
+  .news__content-body {
+    float: left;
+    width: 1074px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+
+    p {
+      float: left;
+      width: 670px;
+      line-height: 24px;
+    }
+
+  }
+
+  .news__content-body__preview {
+    float: right;
+    width: 273px;
+    height: 180px;
+    background: #e2ecf5;
+  }
+
+  // news archive
+
+  .news__archive {
+    float: right;
+    width: 1074px;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 60px;
+
+
+    h3 {
+      margin-bottom: 40px;
+      text-align: left;
+      font: 24px @roboto-black;
+      color: @black;
+      text-transform: uppercase;
+    }
+
+  }
+
+  .news__archive-body {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 120px;
+  }
+
+  .news__archive__column {
+    float: left;
+    width: 534px;
+    height: 100px;
+
+    ul {
+      float: left;
+      width: 434px;
+
+      li {
+        margin: 0;
+        height: auto;
+        padding: 0;
+
+        a, a:hover {
+          display: block;
+          font: 14px @roboto-regular;
+          line-height: 24px;
+          color: #007fb2;
+        }
+      }
+
+    }
+
+  }
+
+  .news__archive__column-date {
+    float: left;
+    width: 67px;
+
+    p {
+      text-align: left !important;
+      font: 14px @roboto-regular;
+      color: @black;
     }
 
   }
