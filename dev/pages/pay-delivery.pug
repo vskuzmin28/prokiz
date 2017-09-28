@@ -1,0 +1,59 @@
+doctype html
+html(lang='ru')
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="shortcut icon" href="img/favicon.png" type="image/png")  
+    link(rel="icon" type="image/png" href="../img/favicon-16-16.png" sizes="16x16")
+    link(rel="icon" type="image/png" href="../img/favicon-32-32.png" sizes="32x32")
+    link(rel="icon" type="image/png" href="../img/favicon-96-96.png" sizes="96x96")
+    title Оплата и доставка | prokiz.ru — Производство крепежных изделий из пластмасс
+    meta(name="Keywords" content="дюбель, заглушки для труб, хомут, ПВХ, крепления сантехники, монтажные изделия")
+    link(rel='stylesheet', href='../styles/style.css')
+  body
+
+    // header
+
+    include ../blocks/block-header/header.pug        
+
+    // / header
+
+    // navigation
+
+    include ../blocks/block-navigation/navigation.pug        
+
+    // / navigation
+
+    // pay delivery
+
+    include ../blocks/block-pay-delivery/pay-delivery.pug        
+
+    // / pay delivery
+
+    // subscribe
+
+    include ../blocks/block-subscribe/subscribe.pug
+
+    // / subscribe
+
+    // footer navigation
+
+    include ../blocks/block-navigation/navigation-footer.pug        
+
+    // / footer navigation
+
+    // footer
+
+    include ../blocks/block-footer/footer.pug
+
+    // / footer
+
+    // scripts
+
+    script(src='../js/jquery-3.2.1.min.js')
+    script(src='../js/jquery.bpopup.min.js')
+    script(src='../js/smooth-scroll.js')
+    script(src='../js/responsiveslides.min.js')
+    script(src='../js/scripts.js')
+
+    // / scripts
